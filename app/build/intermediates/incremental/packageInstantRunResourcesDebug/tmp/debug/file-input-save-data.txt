@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Wed Nov 28 00:48:06 CST 2018
-0.baseType=DIRECTORY
-0.base=E\:\\lichao\\work\\iData\\P160Scan\\app\\build\\intermediates\\assets\\debug
-0.path=yf.platform.jks
-0.set=ASSET
-count=1

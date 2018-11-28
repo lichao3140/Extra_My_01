@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Nov 28 15:37:00 CST 2018
+#Wed Nov 28 16:04:57 CST 2018
 7.path=lib/armeabi/libHsmKil.so
 2.base=F\:\\lichao\\yuanmeng\\Extra_My_01\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
 5.set=NATIVE_RESOURCE

@@ -5,8 +5,8 @@
     <string name="iscan_about">关于</string>
     <string name="iscan_back">返回</string>
     <string name="about_logo_text">关于 iscan</string>
-    <string name="about_logo_text2">版本号：V4.3.2</string>
-    <string name="app_build_date">Build-20180731</string>
+    <string name="about_logo_text2">版本号：V1.0.0</string>
+    <string name="app_build_date">Build-20181201</string>
     <string name="iscan_exit_msg">退出后，你将不能使用后台扫\n描,确定要退出？</string>
     <string name="iscan_exit_title"> 退出iScan</string>
     <string name="iscan_ok">是</string>

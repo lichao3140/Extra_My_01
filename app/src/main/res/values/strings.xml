@@ -5,8 +5,8 @@
     <string name="iscan_about">About</string>
     <string name="iscan_back">Back</string>
     <string name="about_logo_text">About iscan</string>
-    <string name="about_logo_text2">Version: V4.3.2</string>
-    <string name="app_build_date">Build-20180731</string>
+    <string name="about_logo_text2">Version: V1.0.0</string>
+    <string name="app_build_date">Build-20181201</string>
 
     <integer name="app_vercode">10</integer>
     <string name="sym_translate_upca_to_ean13_enable_title">Translate UPCA to EAN13</string>

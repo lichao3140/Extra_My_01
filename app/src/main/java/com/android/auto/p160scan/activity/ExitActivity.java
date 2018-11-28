@@ -41,8 +41,7 @@ public class ExitActivity extends Activity {
 		this.finish();
 		stopService();
 		SettingActivity.SettingFragement.instance.getActivity().finish();
-		ScanLog.getInstance(this).LOGD(
-				"iscanÒÑ±»ÍË³ö" );
+		ScanLog.getInstance(this).LOGD("iscan退出" );
 	}
 
 	public void stopService() {

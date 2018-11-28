@@ -12,13 +12,9 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
 import android.view.Gravity;
-import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 import android.widget.Toast;
-
 import com.android.auto.p160scan.R;
 import com.android.auto.p160scan.ScannerServices;
 import com.android.auto.p160scan.activity.AboutActivity;
@@ -85,8 +81,7 @@ public class BarSettingFragment extends PreferenceFragment implements
         key_terminator.setSummary("        " + key_terminator.getEntry());
     }
 
-    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen,
-                                         Preference preference) {
+    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
 
         final String key = preference.getKey();
         if (ConstantUtil.key_setting.equals(key)) {
@@ -102,12 +97,10 @@ public class BarSettingFragment extends PreferenceFragment implements
             Intent intent = new Intent();
             intent.setClass(mContext, AboutActivity.class);
             startActivity(intent);
-
         } else if (ConstantUtil.key_exit.equals(key)) {
             Intent intent = new Intent();
             intent.setClass(mContext, ExitActivity.class);
             startActivity(intent);
-
         }
 
         return super.onPreferenceTreeClick(preferenceScreen, preference);
