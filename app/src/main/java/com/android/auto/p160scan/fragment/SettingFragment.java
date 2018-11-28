@@ -34,8 +34,4 @@ public class SettingFragment extends PreferenceFragment {
         addPreferencesFromResource(R.xml.advancesetting);
     }
 
-//    @Override
-//    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-//        return inflater.inflate(R.layout.fragment_setting, container, false);
-//    }
 }
