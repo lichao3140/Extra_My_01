@@ -135,10 +135,14 @@
             android:name="android.scanner.library"
             android:required="false" />
 
-        <receiver android:name="com.android.auto.p160scan.broadcast.BootBroadcastReceiver" >
+        <receiver
+            android:name="com.android.auto.p160scan.broadcast.BootBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true" >
             <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" >
-                </action>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
             </intent-filter>
         </receiver>
     </application>

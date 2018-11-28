@@ -23,7 +23,8 @@ public class StartServicesActivity extends Activity {
 	private static final int ACTION_REQUEST_PERMISSIONS = 0x001;
 	private static final String[] NEEDED_PERMISSIONS = new String[]{
 			Manifest.permission.CAMERA,
-			Manifest.permission.WRITE_EXTERNAL_STORAGE
+			Manifest.permission.WRITE_EXTERNAL_STORAGE,
+			Manifest.permission.RECEIVE_BOOT_COMPLETED
 	};
 
 	protected void onCreate(Bundle savedInstanceState) {
