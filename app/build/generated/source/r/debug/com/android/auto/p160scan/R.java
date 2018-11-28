@@ -19445,10 +19445,11 @@ public final class R {
     public static final int advancesetting=0x7f110000;
     public static final int basicsetting=0x7f110001;
     public static final int configuration_settings=0x7f110002;
-    public static final int mybasicsetting=0x7f110003;
-    public static final int n6603_settings=0x7f110004;
-    public static final int scanner_configuration_settings=0x7f110005;
-    public static final int se4710_setting=0x7f110006;
-    public static final int se47xx_setting=0x7f110007;
+    public static final int myadvancesetting=0x7f110003;
+    public static final int mybasicsetting=0x7f110004;
+    public static final int n6603_settings=0x7f110005;
+    public static final int scanner_configuration_settings=0x7f110006;
+    public static final int se4710_setting=0x7f110007;
+    public static final int se47xx_setting=0x7f110008;
   }
 }
