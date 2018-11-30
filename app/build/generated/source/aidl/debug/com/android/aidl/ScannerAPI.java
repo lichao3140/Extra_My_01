@@ -37,30 +37,31 @@ return this;
 }
 @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
 {
+java.lang.String descriptor = DESCRIPTOR;
 switch (code)
 {
 case INTERFACE_TRANSACTION:
 {
-reply.writeString(DESCRIPTOR);
+reply.writeString(descriptor);
 return true;
 }
 case TRANSACTION_openScanner:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 this.openScanner();
 reply.writeNoException();
 return true;
 }
 case TRANSACTION_closeScanner:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 this.closeScanner();
 reply.writeNoException();
 return true;
 }
 case TRANSACTION_getScannerState:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 boolean _result = this.getScannerState();
 reply.writeNoException();
 reply.writeInt(((_result)?(1):(0)));
@@ -68,7 +69,7 @@ return true;
 }
 case TRANSACTION_getTriggerLockState:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 boolean _result = this.getTriggerLockState();
 reply.writeNoException();
 reply.writeInt(((_result)?(1):(0)));
@@ -76,7 +77,7 @@ return true;
 }
 case TRANSACTION_lockTrigger:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 boolean _result = this.lockTrigger();
 reply.writeNoException();
 reply.writeInt(((_result)?(1):(0)));
@@ -84,7 +85,7 @@ return true;
 }
 case TRANSACTION_unlockTrigger:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 boolean _result = this.unlockTrigger();
 reply.writeNoException();
 reply.writeInt(((_result)?(1):(0)));
@@ -92,7 +93,7 @@ return true;
 }
 case TRANSACTION_getOutputMode:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 int _result = this.getOutputMode();
 reply.writeNoException();
 reply.writeInt(_result);
@@ -100,7 +101,7 @@ return true;
 }
 case TRANSACTION_switchOutputMode:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 int _arg0;
 _arg0 = data.readInt();
 boolean _result = this.switchOutputMode(_arg0);
@@ -110,7 +111,7 @@ return true;
 }
 case TRANSACTION_startDecode:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 boolean _result = this.startDecode();
 reply.writeNoException();
 reply.writeInt(((_result)?(1):(0)));
@@ -118,14 +119,17 @@ return true;
 }
 case TRANSACTION_stopDecode:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 boolean _result = this.stopDecode();
 reply.writeNoException();
 reply.writeInt(((_result)?(1):(0)));
 return true;
 }
-}
+default:
+{
 return super.onTransact(code, data, reply, flags);
+}
+}
 }
 private static class Proxy implements com.android.aidl.ScannerAPI
 {
