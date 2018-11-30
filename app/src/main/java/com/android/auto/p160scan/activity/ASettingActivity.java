@@ -24,7 +24,7 @@ public class ASettingActivity extends Activity {
 			
 			Intent intent = new Intent();
 			intent.setClass(ASettingActivity.this,
-					SettingActivity.class);
+					MainViewActivity.class);
 			startActivity(intent);
 			ASettingActivity.this.finish();
 		}
@@ -59,7 +59,7 @@ public class ASettingActivity extends Activity {
 												.GetAdvancePassword())) {
 									Intent intent = new Intent();
 									intent.setClass(ASettingActivity.this,
-											SettingActivity.class);
+											MainViewActivity.class);
 									startActivity(intent);
 
 								} else {

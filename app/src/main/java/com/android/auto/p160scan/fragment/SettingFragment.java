@@ -1,6 +1,5 @@
 package com.android.auto.p160scan.fragment;
 
-import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -11,19 +10,13 @@ import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 import android.view.Gravity;
-import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 import android.widget.Toast;
-
 import com.android.auto.p160scan.R;
 import com.android.auto.p160scan.ScannerServices;
-import com.android.auto.p160scan.activity.AdvancedSettingActivity;
 import com.android.auto.p160scan.activity.BarcodeTestActivty;
 import com.android.auto.p160scan.activity.ScankeyConfigActivity;
-import com.android.auto.p160scan.activity.SettingActivity;
 import com.android.auto.p160scan.activity.Symbologies4710Activty;
 import com.android.auto.p160scan.activity.Symbologies47XXActivty;
 import com.android.auto.p160scan.activity.Symbologies6603Activty;
@@ -205,8 +198,6 @@ public class SettingFragment extends PreferenceFragment implements Preference.On
             ScanLog.getInstance(getActivity()).LOGD(" manual:Reset default");
             Variable.getInstance(getActivity()).ResetValue();
             StartService();
-            AdvancedSettingActivity.AdvancedSettingFragement.instance.getActivity().finish();
-            SettingActivity.SettingFragement.instance.getActivity().finish();
         } else if (key.equals(ConstantUtil.key_scan_config)) {
             Intent intent = new Intent();
             intent.setClass(getActivity(), ScankeyConfigActivity.class);

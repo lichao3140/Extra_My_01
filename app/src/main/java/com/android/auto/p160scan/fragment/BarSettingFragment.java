@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
@@ -11,15 +12,14 @@ import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
+import android.util.Log;
 import android.view.Gravity;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 import com.android.auto.p160scan.R;
 import com.android.auto.p160scan.ScannerServices;
-import com.android.auto.p160scan.activity.AboutActivity;
 import com.android.auto.p160scan.activity.AdvancedSettingActivity;
-import com.android.auto.p160scan.activity.ExitActivity;
 import com.android.auto.p160scan.utility.ConstantUtil;
 import com.android.auto.p160scan.utility.ScanLog;
 import com.android.auto.p160scan.utility.Variable;
@@ -27,7 +27,7 @@ import com.android.auto.p160scan.utility.Variable;
 
 public class BarSettingFragment extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener{
-
+    private static String TAG = "BarSettingFragment";
     private Context mContext = null;
     private SwitchPreference m_key_barcode;
     private CheckBoxPreference m_key_beep;
@@ -82,12 +82,9 @@ public class BarSettingFragment extends PreferenceFragment implements
 
         final String key = preference.getKey();
         if (ConstantUtil.key_about.equals(key)) {
-//            Intent intent = new Intent();
-//            intent.setClass(mContext, AboutActivity.class);
-//            startActivity(intent);
+            showAboutDialog();
         } else if (ConstantUtil.key_exit.equals(key)) {
-            stopService();
-            getActivity().onBackPressed();
+            showExitDialog();
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
@@ -193,6 +190,86 @@ public class BarSettingFragment extends PreferenceFragment implements
         }
         return true;
     }
+
+    /**
+     * 退出
+     */
+    private void showExitDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
+        builder.setIcon(R.drawable.iscan);
+        builder.setTitle("退出应用无法后台扫描");
+        builder.setMessage("确定退出应用吗？");
+        builder.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                stopService();
+                getActivity().onBackPressed();
+            }
+        });
+        builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        builder.setNeutralButton("忽略", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        builder.show();
+    }
+
+    /**
+     * 关于
+     */
+    private void showAboutDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
+        builder.setIcon(R.drawable.iscan);
+        builder.setTitle("软件版本");
+        builder.setMessage(getVersionName(mContext));
+        builder.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        builder.show();
+    }
+
+    /**
+     * 获取apk版本信息
+     * @param context
+     * @return
+     */
+    public static String getVersionName(Context context) {
+        String versionName = null;
+        try {
+            versionName = context.getPackageManager().getPackageInfo(
+                    context.getPackageName(), 0).versionName;
+        } catch (PackageManager.NameNotFoundException e) {
+            Log.e(TAG, e.getMessage());
+        }
+        return versionName;
+    }
+
+    /**
+     * 获取apk的versionCode
+     * @param context
+     * @return
+     */
+    public static int getVersionCode(Context context) {
+        int versionCode = 0;
+        try {
+            versionCode = context.getPackageManager().getPackageInfo(
+                    context.getPackageName(), 0).versionCode;
+        } catch (PackageManager.NameNotFoundException e) {
+            Log.e(TAG, e.getMessage());
+        }
+        return versionCode;
+    }
+
 
     public void startService() {
         Intent i = new Intent(mContext, ScannerServices.class);

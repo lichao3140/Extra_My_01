@@ -1,15 +1,12 @@
 package com.android.auto.p160scan.utility;
 
 import java.util.Random;
-
 import android.app.Notification;
 import android.app.PendingIntent;
 import android.content.Intent;
-
 import com.android.auto.p160scan.R;
 import com.android.auto.p160scan.ScannerServices;
 import com.android.auto.p160scan.activity.ASettingActivity;
-import com.android.auto.p160scan.activity.SettingActivity;
 
 public class NoticeManager {
 
@@ -34,8 +31,7 @@ public class NoticeManager {
 		Intent intent = new Intent();
 		intent.setClass(mContext, ASettingActivity.class);
 		intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP|Intent.FLAG_ACTIVITY_NEW_TASK);
-		PendingIntent pendingIntent = PendingIntent.getActivity(mContext,(new Random().nextInt(100)),
-				intent, 0);
+		PendingIntent pendingIntent = PendingIntent.getActivity(mContext,(new Random().nextInt(100)), intent, 0);
 		Notification.Builder builder = new Notification.Builder(mContext)
 				.setAutoCancel(true).setContentTitle("iScan")
 				.setContentText("").setContentIntent(pendingIntent)
