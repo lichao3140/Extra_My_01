@@ -38,7 +38,6 @@ public class BarSettingFragment extends PreferenceFragment implements
     private CheckBoxPreference m_key_auto;
     private CheckBoxPreference m_key_power;
 
-    private PreferenceScreen m_key_setting;
     private PreferenceScreen m_key_about;
     private PreferenceScreen m_key_exit;
     public static BarSettingFragment instance = null;
@@ -62,7 +61,6 @@ public class BarSettingFragment extends PreferenceFragment implements
         m_key_power = ((CheckBoxPreference) findPreference(ConstantUtil.key_power));
 
         m_key_light = ((CheckBoxPreference) findPreference(ConstantUtil.key_light));
-        m_key_setting = ((PreferenceScreen) findPreference(ConstantUtil.key_setting));
         m_key_about = ((PreferenceScreen) findPreference(ConstantUtil.key_about));
         m_key_exit = ((PreferenceScreen) findPreference(ConstantUtil.key_exit));
         m_key_barcode.setOnPreferenceChangeListener(this);
@@ -75,7 +73,6 @@ public class BarSettingFragment extends PreferenceFragment implements
         m_key_light.setOnPreferenceChangeListener(this);
         m_key_about.setOnPreferenceChangeListener(this);
         m_key_exit.setOnPreferenceChangeListener(this);
-        m_key_setting.setOnPreferenceChangeListener(this);
         key_terminator = ((ListPreference) findPreference(ConstantUtil.key_terminator));
         key_terminator.setOnPreferenceChangeListener(this);
         key_terminator.setSummary("        " + key_terminator.getEntry());
@@ -84,65 +81,39 @@ public class BarSettingFragment extends PreferenceFragment implements
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
 
         final String key = preference.getKey();
-        if (ConstantUtil.key_setting.equals(key)) {
-            if (Variable.getInstance(getActivity()).GetPasswordEnable()) {
-                showPassswordDialog(mContext
-                        .getString(R.string.iscan_enter_password));
-            } else {
-                Intent intent = new Intent();
-                intent.setClass(mContext, AdvancedSettingActivity.class);
-                startActivity(intent);
-            }
-        } else if (ConstantUtil.key_about.equals(key)) {
-            Intent intent = new Intent();
-            intent.setClass(mContext, AboutActivity.class);
-            startActivity(intent);
+        if (ConstantUtil.key_about.equals(key)) {
+//            Intent intent = new Intent();
+//            intent.setClass(mContext, AboutActivity.class);
+//            startActivity(intent);
         } else if (ConstantUtil.key_exit.equals(key)) {
-            Intent intent = new Intent();
-            intent.setClass(mContext, ExitActivity.class);
-            startActivity(intent);
+            stopService();
+            getActivity().onBackPressed();
         }
-
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
+    /**
+     * 输入密码对话框
+     * @param key_title
+     */
     public void showPassswordDialog(final String key_title) {
-
         LinearLayout inputLayout;
-        inputLayout = (LinearLayout) getActivity().getLayoutInflater()
-                .inflate(R.layout.input2, null);
-        final EditText mCurrentFormat = (EditText) inputLayout
-                .findViewById(R.id.xET);
+        inputLayout = (LinearLayout) getActivity().getLayoutInflater().inflate(R.layout.input2, null);
+        final EditText mCurrentFormat = inputLayout.findViewById(R.id.xET);
         new AlertDialog.Builder(getActivity())
                 .setTitle(key_title)
                 .setView(inputLayout)
-
                 .setPositiveButton(
                         getString(R.string.iscan_password_ok),
                         new android.content.DialogInterface.OnClickListener() {
                             @Override
-                            public void onClick(DialogInterface dialog,
-                                                int which) {
-
-                                if (mCurrentFormat
-                                        .getText()
-                                        .toString()
-                                        .equals(Variable.getInstance(
-                                                getActivity())
-                                                .GetAdvancePassword())) {
+                            public void onClick(DialogInterface dialog, int which) {
+                                if (mCurrentFormat.getText().toString().equals(Variable.getInstance(getActivity()).GetAdvancePassword())) {
                                     Intent intent = new Intent();
-                                    intent.setClass(mContext,
-                                            AdvancedSettingActivity.class);
+                                    intent.setClass(mContext, AdvancedSettingActivity.class);
                                     startActivity(intent);
-
                                 } else {
-                                    Toast toast = Toast
-                                            .makeText(
-                                                    getActivity(),
-                                                    getActivity()
-                                                            .getString(
-                                                                    R.string.iscan_password_error),
-                                                    Toast.LENGTH_SHORT);
+                                    Toast toast = Toast.makeText(getActivity(), getActivity().getString(R.string.iscan_password_error), Toast.LENGTH_SHORT);
                                     toast.setGravity(Gravity.CENTER, 0, 0);
                                     toast.show();
                                 }
@@ -153,8 +124,7 @@ public class BarSettingFragment extends PreferenceFragment implements
                         getString(R.string.iscan_password_cancel),
                         new android.content.DialogInterface.OnClickListener() {
                             @Override
-                            public void onClick(DialogInterface dialog,
-                                                int which) { //
+                            public void onClick(DialogInterface dialog, int which) {
 
                             }
                         }).show();

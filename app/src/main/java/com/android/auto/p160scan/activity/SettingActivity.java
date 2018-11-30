@@ -256,9 +256,6 @@ public class SettingActivity extends BaseActivty {
 					ScanLog.getInstance(mContext).LOGD("manual:Power off");
 				}
 			}
-			
-			
-
 			return true;
 		}
 

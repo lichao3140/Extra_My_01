@@ -3,7 +3,6 @@ package com.android.auto.p160scan.broadcast;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.widget.Toast;
 import com.android.auto.p160scan.activity.StartServicesActivity;
 import com.android.auto.p160scan.utility.ConstantUtil;
 import com.android.auto.p160scan.utility.Variable;
@@ -12,8 +11,7 @@ public class BootBroadcastReceiver extends BroadcastReceiver {
 	@Override
 	public void onReceive(Context context, Intent intent) {
 		if (intent.getAction().equals(ConstantUtil.ISCAN_BOOT_ACTION)) {
-//			Toast.makeText(context, "开机广播", Toast.LENGTH_LONG).show();
-//			if (Variable.getInstance(context).GetAotuStartState()) {
+			if (Variable.getInstance(context).GetAotuStartState()) {
 			try {
 				Thread.sleep(2000L);
 				Intent ootStartIntent = new Intent(context, StartServicesActivity.class);
@@ -22,7 +20,7 @@ public class BootBroadcastReceiver extends BroadcastReceiver {
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
-//			}
+			}
 		}
 	}
 }

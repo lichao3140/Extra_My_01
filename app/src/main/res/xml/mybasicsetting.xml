@@ -73,10 +73,6 @@
     </PreferenceCategory>
 
     <PreferenceScreen
-        android:key="key_setting"
-        android:title="@string/iscan_setting"
-        android:widgetLayout="@layout/preference_widget_image" />
-    <PreferenceScreen
         android:key="key_about"
         android:persistent="false"
         android:title="@string/iscan_about"
