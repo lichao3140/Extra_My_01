@@ -1200,9 +1200,10 @@ int drawable notification_template_icon_bg 0x7f080092
 int drawable notification_template_icon_low_bg 0x7f080093
 int drawable notification_tile_bg 0x7f080094
 int drawable notify_panel_notification_icon_bg 0x7f080095
-int drawable tooltip_frame_dark 0x7f080096
-int drawable tooltip_frame_light 0x7f080097
-int drawable view_divider 0x7f080098
+int drawable small_scan 0x7f080096
+int drawable tooltip_frame_dark 0x7f080097
+int drawable tooltip_frame_light 0x7f080098
+int drawable view_divider 0x7f080099
 int id ALT 0x7f090000
 int id CTRL 0x7f090001
 int id FUNCTION 0x7f090002

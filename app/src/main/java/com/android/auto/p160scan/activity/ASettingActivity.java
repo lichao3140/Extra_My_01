@@ -18,18 +18,14 @@ public class ASettingActivity extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 
-		if(Variable.getInstance(
-				ASettingActivity.this)
-				.GetAdvancePassword().equals("")){
-			
+//		if(Variable.getInstance(ASettingActivity.this).GetAdvancePassword().equals("")){
 			Intent intent = new Intent();
-			intent.setClass(ASettingActivity.this,
-					MainViewActivity.class);
+			intent.setClass(ASettingActivity.this, MainViewActivity.class);
 			startActivity(intent);
 			ASettingActivity.this.finish();
-		}
-		else
-		showPassswordDialog(this.getString(R.string.iscan_enter_password));
+//		}
+//		else
+//		showPassswordDialog(this.getString(R.string.iscan_enter_password));
 
 	}
 
