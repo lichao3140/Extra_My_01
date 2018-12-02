@@ -35,7 +35,7 @@ public class NoticeManager {
 		Notification.Builder builder = new Notification.Builder(mContext)
 				.setAutoCancel(true).setContentTitle("iScan")
 				.setContentText("").setContentIntent(pendingIntent)
-				.setSmallIcon(R.drawable.small_scan)
+				.setSmallIcon(R.drawable.iscan)
 				.setWhen(System.currentTimeMillis()).setOngoing(true);
 		notification = builder.getNotification();
 		notification.flags = Notification.FLAG_ONGOING_EVENT;  

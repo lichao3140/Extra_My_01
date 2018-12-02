@@ -1,411 +1,411 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:1:1-143:12
-INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:1:1-143:12
-INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:1:1-143:12
-INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:1:1-143:12
-MERGED from [com.android.support:support-v13:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v13-28.0.0.aar\83cb6927dea25998083d70b8f979458c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\e6e6c4ead89a8cd838992583335dc676\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:design:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a2f377de6d4d1ba56a258ac994136346\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\1423191d9560fabfca0bb2f3bc299f85\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\feef2191efb16844d2515e6d0805f400\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\dae40ed90a4ebf2c23159679db026578\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\9d3dbf98b29fb8a87d7ebac611ec3553\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\7cf38d09d9bde082ac542c9f9d5d698c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\4108f66b4fb35dd12271e017116446ff\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\f84d18c9678a488fb630a18ea0284928\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\d645da4f3254cc5cbd2186735f2f86dc\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\afa1c70b0740c4562e087a4a62758a97\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\25633b55ff8c5cbf41d2e03f0f6269c6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\f0b027d247a60a3541b919c328edc98e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\8abd047b79875410605b1f67a83454a0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f6de30f295b45643e78cfda29ef17ec1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\41a8fa53962aa720b7505605b1421dc9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\e220c490b1b3dc9b0aa56a6b7bd37c30\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\084dd38ffe5c7bc31b242ce7727db6a6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\70e6fb9c200a2663ec834ca41478a953\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a53dbea5fad955a3157d6faf402d6841\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\93c797cd4428c009497084d41da6e40b\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\22b1b7f907c21bad1c541811612d04f2\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\2846eb380a3154e427be3e6df5133c4c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\ff69f9a4e2a9a2c4f6198df8ebd8ae8e\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1d6225f484b2fc84583977027307db7f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\74a34e368f340ab089d3a44952e10c7b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\48382bd5731aafd0105364ba0d3dc13c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a37059196e9ccb479057cb82a0f7650b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\fb72050e19e7ad3f2871b06ff933914c\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\def4000f7f5d313760ce50ba273b4100\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\72981df49cac8bcffb272e655c4f2bb4\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\843ae2df62f7335f618960b34b350ed1\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c64780b7926eb9e6201a1102ebafa366\AndroidManifest.xml:17:1-22:12
-INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:1:1-143:12
-INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:1:1-143:12
-INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:1:1-143:12
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:1:1-143:12
+INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:1:1-143:12
+INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:1:1-143:12
+INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:1:1-143:12
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v13-28.0.0.aar\938452eba43305c008edca9580550300\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\183c4aae5514aab61783b051e3fe5661\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\ee582854a15b426473129190dba07ce3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\a3a9e22007cb6d8b2fa75acb81cda4fb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\9f96c1b3a0662f32c97a57e607dab577\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\b30be78300ae5beafe061989346465a8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\7a684ce950529108ef5282364e816b60\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\864df9bb948a4021bfe1e09f362b16a3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\0ad6bec1f71c69aaa047bcd4f84e6424\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\0fc85ffaf72a7ca6e018387cb995bb5a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\93793d5816fc463929fc8f5787699011\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\4bf9c791f2240fee8928c54d90429f6a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\5bc5dcea3c244d462ac847b6dea104c8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\bbc6de241337351e46d6a3fa2832f24c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\fc69aaf3b39f11c0d824e1dd9d032e8b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\18cf6293631f8ee39685369022e420e3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\12ec148d3b985579313ad3587f08a7de\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\b4ccc6990c0289f5204a7168f2fa9086\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\72b2b303d827f72447ca1a20ffea8bfe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\b95645fe7b1327edaf782e92ca13eb45\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\592355d196cbd2cc4b605e7c50857997\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b1b27ccac62b33381f3736b707d3b2ee\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\963aec5cc735ae1582c8fb39efb9ffdf\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\103da1d864620fe507dcc7efdec94f99\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\985540a87c1782e2b745840afd71ebd8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\98b3cef64d57b19d40c9a8f25cf0d37c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\b1f4a2570520a36e9773c2f739965ec5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\101bfacd07f25ecdf32603a11fb39959\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\0f0fb4387b025f1125935ed7375a6232\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\8f978542ceab4fd902e3e7737da5735f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\9e2dfa8cc219afa1872714e90b3a6f64\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\af2f440b25cadaad80a1d5f4398eb6b6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\76d01c582d9c2132c7004cc0359be63d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\437423f64a3b9a1b0ea3906712e02cff\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:1:1-143:12
+INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:1:1-143:12
+INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:1:1-143:12
 	package
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:2:5-40
-		INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml
-		INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:2:5-40
+		INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml
+		INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:1:1-143:12
-		INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml
+		INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:1:1-143:12
+		INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:1:1-143:12
-		INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml
+		INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:1:1-143:12
+		INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:1:11-69
 	android:installLocation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:3:5-43
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:3:5-43
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:5:5-79
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:6:5-81
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:6:22-78
 uses-permission#android.permission.VIBRATE
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:7:5-66
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:7:5-66
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:7:22-63
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:7:22-63
 uses-permission#android.permission.WAKE_LOCK
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:8:5-68
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:8:5-68
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:8:22-65
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:8:22-65
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:11:5-81
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:11:22-78
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:11:22-78
 uses-permission#android.permission.CAMERA
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:12:5-65
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:12:5-65
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:12:22-62
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:12:22-62
 uses-feature#android.hardware.camera
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:13:5-60
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:13:5-60
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:13:19-57
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:13:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:14:5-70
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:14:5-70
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:14:19-67
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:14:19-67
 uses-permission#android.permission.ACCESS_MTK_MMHW
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:15:5-74
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:15:5-74
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:15:22-71
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:15:22-71
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:16:5-78
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:16:5-78
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:16:22-75
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:16:22-75
 application
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:17:5-141:19
-MERGED from [com.android.support:design:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a2f377de6d4d1ba56a258ac994136346\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a2f377de6d4d1ba56a258ac994136346\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\feef2191efb16844d2515e6d0805f400\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\feef2191efb16844d2515e6d0805f400\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\93c797cd4428c009497084d41da6e40b\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\93c797cd4428c009497084d41da6e40b\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\22b1b7f907c21bad1c541811612d04f2\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\22b1b7f907c21bad1c541811612d04f2\AndroidManifest.xml:22:5-23:19
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:17:5-141:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\ee582854a15b426473129190dba07ce3\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\ee582854a15b426473129190dba07ce3\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\9f96c1b3a0662f32c97a57e607dab577\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\9f96c1b3a0662f32c97a57e607dab577\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b1b27ccac62b33381f3736b707d3b2ee\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b1b27ccac62b33381f3736b707d3b2ee\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\963aec5cc735ae1582c8fb39efb9ffdf\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\963aec5cc735ae1582c8fb39efb9ffdf\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\93c797cd4428c009497084d41da6e40b\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b1b27ccac62b33381f3736b707d3b2ee\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:20:9-41
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:20:9-41
 	android:icon
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:19:9-39
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:19:9-39
 	android:allowBackup
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:18:9-35
 activity#com.android.auto.p160scan.activity.StartServicesActivity
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:21:9-32:20
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:21:9-32:20
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:25:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:25:13-49
 	android:label
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:24:13-45
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:24:13-45
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:23:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:23:13-46
 	android:theme
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:26:13-56
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:26:13-56
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:22:13-84
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:22:13-84
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:30:27-74
 activity#com.android.auto.p160scan.activity.SettingActivity
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:33:9-36:52
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:33:9-36:52
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:36:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:36:13-49
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:35:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:35:13-46
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:34:13-78
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:34:13-78
 activity#com.android.auto.p160scan.activity.PreviewActivty
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:38:10-41:52
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:38:10-41:52
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:41:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:41:13-49
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:40:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:40:13-46
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:39:13-77
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:39:13-77
 activity#com.android.auto.p160scan.activity.ConfigurationSettingsActivity
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:43:9-46:52
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:43:9-46:52
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:46:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:46:13-49
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:45:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:45:13-46
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:44:13-92
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:44:13-92
 activity#com.android.auto.p160scan.activity.ASettingActivity
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:47:9-51:59
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:47:9-51:59
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:50:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:50:13-49
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:49:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:49:13-46
 	android:theme
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:51:13-56
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:51:13-56
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:48:13-79
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:48:13-79
 activity#com.android.auto.p160scan.activity.AdvancedSettingActivity
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:52:9-55:52
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:52:9-55:52
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:55:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:55:13-49
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:54:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:54:13-46
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:53:13-86
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:53:13-86
 activity#com.android.auto.p160scan.activity.Symbologies6603Activty
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:60:9-63:52
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:60:9-63:52
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:63:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:63:13-49
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:62:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:62:13-46
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:61:13-85
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:61:13-85
 activity#com.android.auto.p160scan.activity.Symbologies4710Activty
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:65:10-68:52
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:65:10-68:52
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:68:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:68:13-49
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:67:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:67:13-46
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:66:13-85
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:66:13-85
 activity#com.android.auto.p160scan.activity.Symbologies47XXActivty
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:70:9-73:52
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:70:9-73:52
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:73:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:73:13-49
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:72:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:72:13-46
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:71:13-85
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:71:13-85
 activity#com.android.auto.p160scan.activity.ScannerSettingsActivity
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:75:9-78:52
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:75:9-78:52
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:78:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:78:13-49
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:77:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:77:13-46
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:76:13-86
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:76:13-86
 activity#com.android.auto.p160scan.activity.AboutActivity
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:81:9-85:52
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:81:9-85:52
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:85:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:85:13-49
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:83:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:83:13-46
 	android:exported
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:84:13-36
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:84:13-36
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:82:13-76
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:82:13-76
 activity#com.android.auto.p160scan.activity.ExitActivity
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:86:9-91:52
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:86:9-91:52
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:90:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:90:13-49
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:88:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:88:13-46
 	android:exported
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:89:13-36
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:89:13-36
 	android:theme
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:91:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:91:13-49
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:87:13-75
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:87:13-75
 activity#com.android.auto.p160scan.activity.ScankeyConfigActivity
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:92:9-96:52
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:92:9-96:52
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:96:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:96:13-49
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:94:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:94:13-46
 	android:exported
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:95:13-36
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:95:13-36
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:93:13-84
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:93:13-84
 activity#com.android.auto.p160scan.activity.UpdateIntoducetActivity
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:97:9-101:52
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:97:9-101:52
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:101:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:101:13-49
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:99:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:99:13-46
 	android:exported
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:100:13-36
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:100:13-36
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:98:13-86
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:98:13-86
 activity#com.android.auto.p160scan.activity.BarcodeTestActivty
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:102:9-106:52
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:102:9-106:52
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:106:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:106:13-49
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:104:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:104:13-46
 	android:exported
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:105:13-36
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:105:13-36
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:103:13-81
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:103:13-81
 activity#com.android.auto.p160scan.activity.ScrollViewActivity
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:107:9-111:52
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:107:9-111:52
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:111:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:111:13-49
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:109:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:109:13-46
 	android:exported
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:110:13-36
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:110:13-36
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:108:13-81
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:108:13-81
 activity#com.android.auto.p160scan.activity.MainViewActivity
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:112:9-117:71
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:112:9-117:71
 	android:screenOrientation
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:116:13-49
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:116:13-49
 	android:excludeFromRecents
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:114:13-46
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:114:13-46
 	android:exported
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:115:13-36
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:115:13-36
 	android:theme
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:117:13-69
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:117:13-69
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:113:13-79
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:113:13-79
 service#com.android.auto.p160scan.ScannerServices
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:119:9-126:19
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:119:9-126:19
 	android:enabled
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:122:13-35
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:122:13-35
 	android:exported
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:121:13-36
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:121:13-36
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:120:13-43
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:120:13-43
 intent-filter#action:name:native_device_service
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:123:13-125:29
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:123:13-125:29
 	android:priority
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:123:28-51
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:123:28-51
 action#native_device_service
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:124:17-64
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:124:17-64
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:124:25-61
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:124:25-61
 uses-library#android.scanner.library
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:128:8-130:40
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:128:8-130:40
 	android:required
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:130:13-37
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:130:13-37
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:129:13-51
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:129:13-51
 receiver#com.android.auto.p160scan.broadcast.BootBroadcastReceiver
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:132:9-140:20
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:132:9-140:20
 	android:enabled
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:134:13-35
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:134:13-35
 	android:exported
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:135:13-36
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:135:13-36
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:133:13-85
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:133:13-85
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.HOME
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:136:13-139:29
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:136:13-139:29
 	android:priority
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:136:28-52
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:136:28-52
 action#android.intent.action.BOOT_COMPLETED
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:137:17-79
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:137:17-79
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:137:25-76
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:137:25-76
 category#android.intent.category.HOME
-ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:138:17-73
+ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:138:17-73
 	android:name
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml:138:27-70
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml:138:27-70
 uses-sdk
-INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml
-INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:support-v13:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v13-28.0.0.aar\83cb6927dea25998083d70b8f979458c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v13:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v13-28.0.0.aar\83cb6927dea25998083d70b8f979458c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\e6e6c4ead89a8cd838992583335dc676\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\e6e6c4ead89a8cd838992583335dc676\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a2f377de6d4d1ba56a258ac994136346\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a2f377de6d4d1ba56a258ac994136346\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\1423191d9560fabfca0bb2f3bc299f85\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\1423191d9560fabfca0bb2f3bc299f85\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\feef2191efb16844d2515e6d0805f400\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\feef2191efb16844d2515e6d0805f400\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\dae40ed90a4ebf2c23159679db026578\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\dae40ed90a4ebf2c23159679db026578\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\9d3dbf98b29fb8a87d7ebac611ec3553\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\9d3dbf98b29fb8a87d7ebac611ec3553\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\7cf38d09d9bde082ac542c9f9d5d698c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\7cf38d09d9bde082ac542c9f9d5d698c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\4108f66b4fb35dd12271e017116446ff\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\4108f66b4fb35dd12271e017116446ff\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\f84d18c9678a488fb630a18ea0284928\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\f84d18c9678a488fb630a18ea0284928\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\d645da4f3254cc5cbd2186735f2f86dc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\d645da4f3254cc5cbd2186735f2f86dc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\afa1c70b0740c4562e087a4a62758a97\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\afa1c70b0740c4562e087a4a62758a97\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\25633b55ff8c5cbf41d2e03f0f6269c6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\25633b55ff8c5cbf41d2e03f0f6269c6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\f0b027d247a60a3541b919c328edc98e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\f0b027d247a60a3541b919c328edc98e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\8abd047b79875410605b1f67a83454a0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\8abd047b79875410605b1f67a83454a0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f6de30f295b45643e78cfda29ef17ec1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f6de30f295b45643e78cfda29ef17ec1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\41a8fa53962aa720b7505605b1421dc9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\41a8fa53962aa720b7505605b1421dc9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\e220c490b1b3dc9b0aa56a6b7bd37c30\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\e220c490b1b3dc9b0aa56a6b7bd37c30\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\084dd38ffe5c7bc31b242ce7727db6a6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\084dd38ffe5c7bc31b242ce7727db6a6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\70e6fb9c200a2663ec834ca41478a953\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\70e6fb9c200a2663ec834ca41478a953\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a53dbea5fad955a3157d6faf402d6841\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a53dbea5fad955a3157d6faf402d6841\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\93c797cd4428c009497084d41da6e40b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\93c797cd4428c009497084d41da6e40b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\22b1b7f907c21bad1c541811612d04f2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\22b1b7f907c21bad1c541811612d04f2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\2846eb380a3154e427be3e6df5133c4c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\2846eb380a3154e427be3e6df5133c4c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\ff69f9a4e2a9a2c4f6198df8ebd8ae8e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\ff69f9a4e2a9a2c4f6198df8ebd8ae8e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1d6225f484b2fc84583977027307db7f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1d6225f484b2fc84583977027307db7f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\74a34e368f340ab089d3a44952e10c7b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\74a34e368f340ab089d3a44952e10c7b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\48382bd5731aafd0105364ba0d3dc13c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\48382bd5731aafd0105364ba0d3dc13c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a37059196e9ccb479057cb82a0f7650b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a37059196e9ccb479057cb82a0f7650b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\fb72050e19e7ad3f2871b06ff933914c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\fb72050e19e7ad3f2871b06ff933914c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\def4000f7f5d313760ce50ba273b4100\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\def4000f7f5d313760ce50ba273b4100\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\72981df49cac8bcffb272e655c4f2bb4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\72981df49cac8bcffb272e655c4f2bb4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\843ae2df62f7335f618960b34b350ed1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\843ae2df62f7335f618960b34b350ed1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c64780b7926eb9e6201a1102ebafa366\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c64780b7926eb9e6201a1102ebafa366\AndroidManifest.xml:20:5-44
-INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml
-INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml
+INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml
+INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v13-28.0.0.aar\938452eba43305c008edca9580550300\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v13-28.0.0.aar\938452eba43305c008edca9580550300\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\183c4aae5514aab61783b051e3fe5661\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\183c4aae5514aab61783b051e3fe5661\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\ee582854a15b426473129190dba07ce3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\ee582854a15b426473129190dba07ce3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\a3a9e22007cb6d8b2fa75acb81cda4fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\a3a9e22007cb6d8b2fa75acb81cda4fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\9f96c1b3a0662f32c97a57e607dab577\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\9f96c1b3a0662f32c97a57e607dab577\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\b30be78300ae5beafe061989346465a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\b30be78300ae5beafe061989346465a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\7a684ce950529108ef5282364e816b60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\7a684ce950529108ef5282364e816b60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\864df9bb948a4021bfe1e09f362b16a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\864df9bb948a4021bfe1e09f362b16a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\0ad6bec1f71c69aaa047bcd4f84e6424\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\0ad6bec1f71c69aaa047bcd4f84e6424\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\0fc85ffaf72a7ca6e018387cb995bb5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\0fc85ffaf72a7ca6e018387cb995bb5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\93793d5816fc463929fc8f5787699011\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\93793d5816fc463929fc8f5787699011\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\4bf9c791f2240fee8928c54d90429f6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\4bf9c791f2240fee8928c54d90429f6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\5bc5dcea3c244d462ac847b6dea104c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\5bc5dcea3c244d462ac847b6dea104c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\bbc6de241337351e46d6a3fa2832f24c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\bbc6de241337351e46d6a3fa2832f24c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\fc69aaf3b39f11c0d824e1dd9d032e8b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\fc69aaf3b39f11c0d824e1dd9d032e8b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\18cf6293631f8ee39685369022e420e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\18cf6293631f8ee39685369022e420e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\12ec148d3b985579313ad3587f08a7de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\12ec148d3b985579313ad3587f08a7de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\b4ccc6990c0289f5204a7168f2fa9086\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\b4ccc6990c0289f5204a7168f2fa9086\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\72b2b303d827f72447ca1a20ffea8bfe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\72b2b303d827f72447ca1a20ffea8bfe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\b95645fe7b1327edaf782e92ca13eb45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\b95645fe7b1327edaf782e92ca13eb45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\592355d196cbd2cc4b605e7c50857997\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\592355d196cbd2cc4b605e7c50857997\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b1b27ccac62b33381f3736b707d3b2ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b1b27ccac62b33381f3736b707d3b2ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\963aec5cc735ae1582c8fb39efb9ffdf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\963aec5cc735ae1582c8fb39efb9ffdf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\103da1d864620fe507dcc7efdec94f99\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\103da1d864620fe507dcc7efdec94f99\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\985540a87c1782e2b745840afd71ebd8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\985540a87c1782e2b745840afd71ebd8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\98b3cef64d57b19d40c9a8f25cf0d37c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\98b3cef64d57b19d40c9a8f25cf0d37c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\b1f4a2570520a36e9773c2f739965ec5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\b1f4a2570520a36e9773c2f739965ec5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\101bfacd07f25ecdf32603a11fb39959\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\101bfacd07f25ecdf32603a11fb39959\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\0f0fb4387b025f1125935ed7375a6232\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\0f0fb4387b025f1125935ed7375a6232\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\8f978542ceab4fd902e3e7737da5735f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\8f978542ceab4fd902e3e7737da5735f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\9e2dfa8cc219afa1872714e90b3a6f64\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\9e2dfa8cc219afa1872714e90b3a6f64\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\af2f440b25cadaad80a1d5f4398eb6b6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\af2f440b25cadaad80a1d5f4398eb6b6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\76d01c582d9c2132c7004cc0359be63d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\76d01c582d9c2132c7004cc0359be63d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\437423f64a3b9a1b0ea3906712e02cff\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\437423f64a3b9a1b0ea3906712e02cff\AndroidManifest.xml:20:5-44
+INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml
+INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml
-		INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml
+		INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml
+		INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml
-		ADDED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml
-		INJECTED from F:\lichao\yuanmeng\Extra_My_01\app\src\main\AndroidManifest.xml
+		INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml
+		ADDED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml
+		INJECTED from E:\lichao\work\iData\P160Scan\app\src\main\AndroidManifest.xml
