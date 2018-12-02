@@ -19,6 +19,7 @@ android {
         versionName "1.0.0"
         signingConfig signingConfigs.config
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -29,7 +30,13 @@ android {
             signingConfig signingConfigs.config
         }
     }
+
     productFlavors {
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
     }
 }
 
