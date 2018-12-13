@@ -147,6 +147,7 @@ public class ScannerServices extends Service {
 			result += "\n";
 		}
 		String res = result.replace(f_character, "");
+		Log.i("lichao", "HandleBacodeResult->m_key_broadcast=" + m_key_broadcast);
 		if (m_key_broadcast == 1) {
 			SendBraodcast(res, decodetime);
 		} else if (m_key_broadcast == 0) {
@@ -175,6 +176,8 @@ public class ScannerServices extends Service {
 		localIntent.setAction("com.iData.Scancontext");
 		localIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		localIntent.putExtra("Scan_context", info);
+		m_key_deletect = true;
+		Log.i("lichao", "SendScanText->m_key_deletect=" + m_key_deletect);
 		if (m_key_deletect) {
 			localIntent.putExtra("DeleteSurroundingText", true);
 		}
@@ -530,8 +533,7 @@ public class ScannerServices extends Service {
 			case ParamNum.deleted: {
 				m_key_deletect = ((Boolean) obj).booleanValue();
 				Variable.getInstance(this).SetDeletectState(m_key_deletect);
-				ScanLog.getInstance(this).LOGD(
-						"broadcast:m_key_deletect-- " + m_key_deletect);
+				ScanLog.getInstance(this).LOGD("broadcast:m_key_deletect-- " + m_key_deletect);
 			}
 			break;
 
