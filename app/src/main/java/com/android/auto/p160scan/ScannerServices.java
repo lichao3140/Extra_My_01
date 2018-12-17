@@ -176,8 +176,6 @@ public class ScannerServices extends Service {
 		localIntent.setAction("com.iData.Scancontext");
 		localIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		localIntent.putExtra("Scan_context", info);
-		m_key_deletect = true;
-		Log.i("lichao", "SendScanText->m_key_deletect=" + m_key_deletect);
 		if (m_key_deletect) {
 			localIntent.putExtra("DeleteSurroundingText", true);
 		}

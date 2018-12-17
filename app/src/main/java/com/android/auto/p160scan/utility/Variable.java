@@ -15,7 +15,7 @@ public class Variable {
 		if (instance == null) {
 			instance = new Variable(context);
 			sharedPref = gContext.getSharedPreferences(
-					"com.android.auto.iscan_preferences", Context.MODE_PRIVATE);
+					"com.android.auto.p160scan_preferences", Context.MODE_PRIVATE);
 			sharedPrefEditor = sharedPref.edit();
 		}
 		return instance;

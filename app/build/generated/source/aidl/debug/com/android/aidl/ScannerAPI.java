@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: E:\\lichao\\work\\iData\\P160Scan\\app\\src\\main\\aidl\\com\\android\\aidl\\ScannerAPI.aidl
+ * Original file: F:\\lichao\\yuanmeng\\Extra_My_01\\app\\src\\main\\aidl\\com\\android\\aidl\\ScannerAPI.aidl
  */
 package com.android.aidl;
 // Declare any non-default types here with import statements
