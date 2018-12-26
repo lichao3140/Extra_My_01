@@ -209,7 +209,6 @@ public class BarcodeControll implements ScanCallBack {
 			msg.obj = data;
 			msg.arg1 = decodeTime(decodeEndTime, decodeStartTime);
 //			msg.arg1 = (int) (decodeEndTime - decodeStartTime);
-			msg.arg1 = (int) (decodeEndTime - decodeStartTime);
 			mHandler.sendMessage(msg);
 		}
 	}
