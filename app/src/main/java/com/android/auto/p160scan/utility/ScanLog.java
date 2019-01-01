@@ -31,7 +31,7 @@ public class ScanLog {
 		logConfigurator.setRootLevel(Level.DEBUG);
 	//	logConfigurator.setRootLevel(Level.INFO);
 		logConfigurator.setLevel("org.apache", Level.ERROR);
-		 logConfigurator.setFilePattern(" %m%n");
+		logConfigurator.setFilePattern(" %m%n");
 		logConfigurator.setMaxFileSize(5242880L);
 		logConfigurator.setImmediateFlush(true);
 		logConfigurator.configure();

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">iScan</string>
+    <string name="app_name">Scan</string>
     <string name="iscan_about">关于</string>
     <string name="iscan_back">返回</string>
     <string name="about_logo_text">关于 iscan</string>

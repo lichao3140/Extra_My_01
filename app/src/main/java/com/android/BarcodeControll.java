@@ -169,7 +169,6 @@ public class BarcodeControll implements ScanCallBack {
 			msg.what = BARCODE_READ;
 			msg.obj = data;
 			msg.arg1 = decodeTime(decodeEndTime, decodeStartTime);
-//			msg.arg1 = (int) (decodeEndTime - decodeStartTime);
 			// ScanLog.LOGD("decodeEndTime=" + msg.arg1);
 			mHandler.sendMessage(msg);
 		}
@@ -208,7 +207,6 @@ public class BarcodeControll implements ScanCallBack {
 			msg.what = BARCODE_READ;
 			msg.obj = data;
 			msg.arg1 = decodeTime(decodeEndTime, decodeStartTime);
-//			msg.arg1 = (int) (decodeEndTime - decodeStartTime);
 			mHandler.sendMessage(msg);
 		}
 	}
